@@ -14,6 +14,7 @@
 		521858A02765FC9D0078610C /* PracticeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218589F2765FC9D0078610C /* PracticeTabBar.swift */; };
 		521858A227660D9C0078610C /* PracticeLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858A127660D9C0078610C /* PracticeLoadingView.swift */; };
 		521858A4276621E50078610C /* PracticeStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858A3276621E50078610C /* PracticeStories.swift */; };
+		52C8A294276702A00095CF44 /* PracticeLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A293276702A00095CF44 /* PracticeLazyVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5218589F2765FC9D0078610C /* PracticeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTabBar.swift; sourceTree = "<group>"; };
 		521858A127660D9C0078610C /* PracticeLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeLoadingView.swift; sourceTree = "<group>"; };
 		521858A3276621E50078610C /* PracticeStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStories.swift; sourceTree = "<group>"; };
+		52C8A293276702A00095CF44 /* PracticeLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeLazyVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				5218589F2765FC9D0078610C /* PracticeTabBar.swift */,
 				521858A127660D9C0078610C /* PracticeLoadingView.swift */,
 				521858A3276621E50078610C /* PracticeStories.swift */,
+				52C8A293276702A00095CF44 /* PracticeLazyVGrid.swift */,
 			);
 			path = PracticeViews;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				521858A227660D9C0078610C /* PracticeLoadingView.swift in Sources */,
 				521858922765FC1C0078610C /* ContentView.swift in Sources */,
 				521858A02765FC9D0078610C /* PracticeTabBar.swift in Sources */,
+				52C8A294276702A00095CF44 /* PracticeLazyVGrid.swift in Sources */,
 				521858902765FC1C0078610C /* ViewsApp.swift in Sources */,
 				521858A4276621E50078610C /* PracticeStories.swift in Sources */,
 			);

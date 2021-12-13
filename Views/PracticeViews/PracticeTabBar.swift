@@ -17,7 +17,6 @@ struct PracticeTabBar: View {
                     Text("Home")
                 })
                 .ignoresSafeArea(.all, edges: .top)
-                
             Color.green
                 .tabItem({
                     Image(systemName: "photo")
