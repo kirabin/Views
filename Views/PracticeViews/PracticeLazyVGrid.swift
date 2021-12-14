@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PracticeLazyVGrid: View {
-    let data = generateStrings(amount: 1000, of: 9)
+    let data = StringGenerator.generateStrings(amount: 1000, of: 3..<10)
     
     var body: some View {
         ScrollView {
@@ -24,23 +24,6 @@ struct PracticeLazyVGrid: View {
             }
             .padding()
         }
-    }
-    
-    static func generateString(of size: Int) -> String {
-        let alpha: [Character] = "abcdifghijklmnopqrstuvwxyz".map({$0})
-        var str = ""
-        for _ in 0..<size {
-            str.append(alpha.randomElement()!)
-        }
-        return str
-    }
-    
-    static func generateStrings(amount: Int, of size: Int) -> [String] {
-        var strings: [String] = []
-        for _ in 0..<amount {
-            strings.append(generateString(of: size))
-        }
-        return strings
     }
 }
 

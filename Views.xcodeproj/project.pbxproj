@@ -13,7 +13,8 @@
 		521858972765FC1E0078610C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521858962765FC1E0078610C /* Preview Assets.xcassets */; };
 		521858A02765FC9D0078610C /* PracticeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218589F2765FC9D0078610C /* PracticeTabBar.swift */; };
 		521858A227660D9C0078610C /* PracticeLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858A127660D9C0078610C /* PracticeLoadingView.swift */; };
-		521858A4276621E50078610C /* PracticeStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858A3276621E50078610C /* PracticeStories.swift */; };
+		521858A4276621E50078610C /* PracticePages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521858A3276621E50078610C /* PracticePages.swift */; };
+		523345732767A92C00397379 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523345722767A92C00397379 /* StringGenerator.swift */; };
 		52C8A294276702A00095CF44 /* PracticeLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A293276702A00095CF44 /* PracticeLazyVGrid.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +26,8 @@
 		521858962765FC1E0078610C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5218589F2765FC9D0078610C /* PracticeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTabBar.swift; sourceTree = "<group>"; };
 		521858A127660D9C0078610C /* PracticeLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeLoadingView.swift; sourceTree = "<group>"; };
-		521858A3276621E50078610C /* PracticeStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStories.swift; sourceTree = "<group>"; };
+		521858A3276621E50078610C /* PracticePages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePages.swift; sourceTree = "<group>"; };
+		523345722767A92C00397379 /* StringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
 		52C8A293276702A00095CF44 /* PracticeLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeLazyVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 		5218588E2765FC1C0078610C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				523345712767A90A00397379 /* Utility */,
 				5218589E2765FC900078610C /* PracticeViews */,
 				5218589D2765FC780078610C /* CustomViews */,
 				5218588F2765FC1C0078610C /* ViewsApp.swift */,
@@ -89,10 +92,18 @@
 			children = (
 				5218589F2765FC9D0078610C /* PracticeTabBar.swift */,
 				521858A127660D9C0078610C /* PracticeLoadingView.swift */,
-				521858A3276621E50078610C /* PracticeStories.swift */,
+				521858A3276621E50078610C /* PracticePages.swift */,
 				52C8A293276702A00095CF44 /* PracticeLazyVGrid.swift */,
 			);
 			path = PracticeViews;
+			sourceTree = "<group>";
+		};
+		523345712767A90A00397379 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				523345722767A92C00397379 /* StringGenerator.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,11 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				521858A227660D9C0078610C /* PracticeLoadingView.swift in Sources */,
+				523345732767A92C00397379 /* StringGenerator.swift in Sources */,
 				521858922765FC1C0078610C /* ContentView.swift in Sources */,
 				521858A02765FC9D0078610C /* PracticeTabBar.swift in Sources */,
 				52C8A294276702A00095CF44 /* PracticeLazyVGrid.swift in Sources */,
 				521858902765FC1C0078610C /* ViewsApp.swift in Sources */,
-				521858A4276621E50078610C /* PracticeStories.swift in Sources */,
+				521858A4276621E50078610C /* PracticePages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
